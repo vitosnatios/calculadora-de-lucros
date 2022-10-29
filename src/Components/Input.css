@@ -1,0 +1,13 @@
+label {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+input {
+  background: #282c34;
+  color: white;
+  width: 75px;
+  border-radius: 5px;
+  font-size: 30px;
+}
