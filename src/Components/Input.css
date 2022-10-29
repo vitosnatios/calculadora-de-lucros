@@ -1,5 +1,5 @@
 label {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
 }

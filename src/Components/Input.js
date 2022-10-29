@@ -1,7 +1,7 @@
 import React from 'react';
 import './Input.css';
 
-const Input = ({ id, label, value, setState, prefix, ...props }) => {
+const Input = ({ id, label, value, setState, prefix, inline, ...props }) => {
   const handleChange = ({ target }) => {
     setState(target.value);
   };
